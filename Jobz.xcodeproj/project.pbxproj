@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11735DC91F9BF96800931CCC /* JobDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11735DC81F9BF96800931CCC /* JobDetailsViewController.swift */; };
 		11788A311F94225400CFC26F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11788A301F94225400CFC26F /* AppDelegate.swift */; };
-		11788A331F94225400CFC26F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11788A321F94225400CFC26F /* ViewController.swift */; };
 		11788A361F94225400CFC26F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11788A341F94225400CFC26F /* Main.storyboard */; };
 		11788A391F94225400CFC26F /* Jobz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 11788A371F94225400CFC26F /* Jobz.xcdatamodeld */; };
 		11788A3B1F94225400CFC26F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11788A3A1F94225400CFC26F /* Assets.xcassets */; };
 		11788A3E1F94225400CFC26F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11788A3C1F94225400CFC26F /* LaunchScreen.storyboard */; };
+		11788A461F9424EC00CFC26F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 11788A451F9424EC00CFC26F /* GoogleService-Info.plist */; };
+		11788A481F942C1C00CFC26F /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11788A471F942C1C00CFC26F /* CollectionViewController.swift */; };
+		11D79D0E1FA9929D004C0B01 /* PhotoCellJobDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D79D0D1FA9929D004C0B01 /* PhotoCellJobDetail.swift */; };
+		BAD0D04C1D6600DD4D27A30B /* Pods_Jobz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14327BCCE2AFCB1D16129DFF /* Pods_Jobz.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11735DC81F9BF96800931CCC /* JobDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobDetailsViewController.swift; sourceTree = "<group>"; };
 		11788A2D1F94225400CFC26F /* Jobz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jobz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11788A301F94225400CFC26F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		11788A321F94225400CFC26F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		11788A351F94225400CFC26F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		11788A381F94225400CFC26F /* Jobz.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Jobz.xcdatamodel; sourceTree = "<group>"; };
 		11788A3A1F94225400CFC26F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11788A3D1F94225400CFC26F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11788A3F1F94225400CFC26F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11788A451F9424EC00CFC26F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		11788A471F942C1C00CFC26F /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		11D79D0D1FA9929D004C0B01 /* PhotoCellJobDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCellJobDetail.swift; sourceTree = "<group>"; };
+		14327BCCE2AFCB1D16129DFF /* Pods_Jobz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jobz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		301247B309A64A2EA94F9B3C /* Pods-Jobz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jobz.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jobz/Pods-Jobz.debug.xcconfig"; sourceTree = "<group>"; };
+		97E01051491DCFE97E8A80B6 /* Pods-Jobz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jobz.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jobz/Pods-Jobz.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAD0D04C1D6600DD4D27A30B /* Pods_Jobz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +53,8 @@
 			children = (
 				11788A2F1F94225400CFC26F /* Jobz */,
 				11788A2E1F94225400CFC26F /* Products */,
+				86C73D52E491FAA399276447 /* Pods */,
+				305A0BE9055F3E39C2433F63 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +70,34 @@
 			isa = PBXGroup;
 			children = (
 				11788A301F94225400CFC26F /* AppDelegate.swift */,
-				11788A321F94225400CFC26F /* ViewController.swift */,
+				11788A471F942C1C00CFC26F /* CollectionViewController.swift */,
 				11788A341F94225400CFC26F /* Main.storyboard */,
 				11788A3A1F94225400CFC26F /* Assets.xcassets */,
 				11788A3C1F94225400CFC26F /* LaunchScreen.storyboard */,
 				11788A3F1F94225400CFC26F /* Info.plist */,
 				11788A371F94225400CFC26F /* Jobz.xcdatamodeld */,
+				11788A451F9424EC00CFC26F /* GoogleService-Info.plist */,
+				11735DC81F9BF96800931CCC /* JobDetailsViewController.swift */,
+				11D79D0D1FA9929D004C0B01 /* PhotoCellJobDetail.swift */,
 			);
 			path = Jobz;
+			sourceTree = "<group>";
+		};
+		305A0BE9055F3E39C2433F63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14327BCCE2AFCB1D16129DFF /* Pods_Jobz.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		86C73D52E491FAA399276447 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				301247B309A64A2EA94F9B3C /* Pods-Jobz.debug.xcconfig */,
+				97E01051491DCFE97E8A80B6 /* Pods-Jobz.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +107,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 11788A421F94225400CFC26F /* Build configuration list for PBXNativeTarget "Jobz" */;
 			buildPhases = (
+				FA319E9C7DA2D802BC5FA1D0 /* [CP] Check Pods Manifest.lock */,
 				11788A291F94225400CFC26F /* Sources */,
 				11788A2A1F94225400CFC26F /* Frameworks */,
 				11788A2B1F94225400CFC26F /* Resources */,
+				A07512BB53F0F82629260E52 /* [CP] Embed Pods Frameworks */,
+				4F7A975122B9040F4D7725F2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -99,6 +135,7 @@
 				TargetAttributes = {
 					11788A2C1F94225400CFC26F = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = YSEF4CY4SN;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -127,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				11788A3E1F94225400CFC26F /* LaunchScreen.storyboard in Resources */,
+				11788A461F9424EC00CFC26F /* GoogleService-Info.plist in Resources */,
 				11788A3B1F94225400CFC26F /* Assets.xcassets in Resources */,
 				11788A361F94225400CFC26F /* Main.storyboard in Resources */,
 			);
@@ -134,12 +172,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4F7A975122B9040F4D7725F2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jobz/Pods-Jobz-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A07512BB53F0F82629260E52 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Jobz/Pods-Jobz-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jobz/Pods-Jobz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA319E9C7DA2D802BC5FA1D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Jobz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		11788A291F94225400CFC26F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11788A331F94225400CFC26F /* ViewController.swift in Sources */,
+				11D79D0E1FA9929D004C0B01 /* PhotoCellJobDetail.swift in Sources */,
+				11788A481F942C1C00CFC26F /* CollectionViewController.swift in Sources */,
+				11735DC91F9BF96800931CCC /* JobDetailsViewController.swift in Sources */,
 				11788A391F94225400CFC26F /* Jobz.xcdatamodeld in Sources */,
 				11788A311F94225400CFC26F /* AppDelegate.swift in Sources */,
 			);
@@ -264,8 +364,10 @@
 		};
 		11788A431F94225400CFC26F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 301247B309A64A2EA94F9B3C /* Pods-Jobz.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YSEF4CY4SN;
 				INFOPLIST_FILE = Jobz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = z.Jobz;
@@ -276,8 +378,10 @@
 		};
 		11788A441F94225400CFC26F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97E01051491DCFE97E8A80B6 /* Pods-Jobz.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YSEF4CY4SN;
 				INFOPLIST_FILE = Jobz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = z.Jobz;
@@ -305,6 +409,7 @@
 				11788A441F94225400CFC26F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
